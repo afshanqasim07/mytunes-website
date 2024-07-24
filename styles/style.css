@@ -46,9 +46,35 @@ ul li{
         font-size: 2rem;
     }
     .h3{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     .heading p{
-        font-size: 0.5rem;
+        font-size: 0.3rem;
+    }
+}
+.text{
+    background-color: #281154;
+    color: #f0f8ff;
+   height: 60%;
+   
+}
+.redbtn{
+    background-color: red;
+    border: none;
+    padding: 0.5rem;
+    color: white;
+    margin-left: 45%;
+}
+.redbtn :hover{
+  transition:0.2s ease-out;
+  background-color: rgba(255, 0, 0, 0.849);
+}
+@media (max-width: 768px){
+    .redbtn{
+        margin-left: 35%;
+    }
+    .text p{
+        font-size: 0.7rem;
+        padding: 0.5rem;
     }
 }
