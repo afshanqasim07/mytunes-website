@@ -16,10 +16,14 @@ ul li{
     list-style: none;
     color: white;
     margin-top: 1rem;
+    margin-right: 3rem;
 }
 @media (max-width: 768px) {
-   ul{
+   ul li{
     display: none;
+   }
+   .logo h3{
+    text-align: center;
    }
 }
 
@@ -55,7 +59,7 @@ ul li{
 .text{
     background-color: #281154;
     color: #f0f8ff;
-   height: 60%;
+   height: 40rem;
    
 }
 .redbtn{
@@ -77,4 +81,19 @@ ul li{
         font-size: 0.7rem;
         padding: 0.5rem;
     }
+    
+}
+.image{
+    margin-top: -17rem;
+    z-index: 1;
+}
+.txt{
+    margin-top: 10rem;
+}
+.prplebtn{
+    background-color: rgb(39,0,130);
+    border: none;
+    color: #f0f8ff;
+    padding: 0.5rem;
+    margin-left: 45rem;
 }
