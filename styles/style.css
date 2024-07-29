@@ -97,3 +97,14 @@ ul li{
     padding: 0.5rem;
     margin-left: 45rem;
 }
+.videobox{
+    background-image: url(/assets/video.png);
+   height: 100vh;
+   width: 100%;
+}
+.para{
+   color: #f0f8ff;
+   margin-top: 10rem;
+   text-align: center;
+
+}
